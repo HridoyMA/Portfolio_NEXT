@@ -1,9 +1,15 @@
+
+import About from '@/components/about'
+import Introduction from '@/components/introduction'
+import SectionDivider from '@/components/sectionDivider'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="">
-      
+    <main className="flex flex-col items-center px-4">
+      <Introduction/>
+      <SectionDivider/>
+      <About/>
     </main>
   )
 }
