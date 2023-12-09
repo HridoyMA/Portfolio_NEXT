@@ -8,14 +8,14 @@ import Link from "next/link";
 
 export default function Introduction() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Mashiur Ahmed Hridoy</span> I'm a{" "}
-        <span className="font-bold">full-stack developer | Competitive programmar</span> With a strong foundation in{" "}  
+        <span className="font-bold">software engineer | Competitive programmar</span> With a strong foundation in{" "}  
         <span className="font-bold">algorithms, data structures, and problem-solving,</span> I have honed my skills through participation in various coding competitions and challenges. I enjoy building 
         <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
